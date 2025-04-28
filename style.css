@@ -268,7 +268,11 @@ body {
 
 @media (max-width: 480px) {
   .content {
+    items: center;
     margin-top: 50px;
+    overflow-x: hidden;
+    padding: 80px;
+    
   }
 
   .content__corner-rectangle {
