@@ -149,6 +149,7 @@ body {
 }
 
 .page__image {
+ 
   position: absolute;
   top: 76px;
   right: 0;
@@ -261,8 +262,7 @@ body {
 
 @media (max-width: 480px) {
   .page__image {
-    width: 70%; /* Ajuste para celulares */
-    top: 30px;
+    display: none; /* Esconde a imagem em telas muito pequenas */
   }
 }
 
